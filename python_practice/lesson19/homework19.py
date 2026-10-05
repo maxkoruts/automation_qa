@@ -29,7 +29,6 @@ def extract_time(line):
 
 
 def analyze_heartbeat(path, key=KEY, log_file=LOG_FILE):
-    """Аналізує інтервали heartbeat; пише WARNING/ERROR у hb_test.log."""
     logger = logging.getLogger("hb_test")
     logger.setLevel(logging.INFO)
     logger.handlers.clear()
