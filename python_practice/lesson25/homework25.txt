@@ -1,0 +1,23 @@
+CSS:
+1. Кнопка Sign Up .hero-descriptor_btn
+2. Кнопка Guest log in .header-link.-guest
+3. Посилання Home a.header-link[href="/"]
+4. Кнопка About button[appscrollto="aboutSection"]
+5. Кнопка Contacts button[appscrollto="contactsSection"]
+6. Кнопка Add Car button.btn-primary
+7. Випадаючий список Brand #addCarBrand
+8. Випадаючий список Model #addCarModel
+9. Поле вводу Mileage #addCarMileage
+10. Кнопка Close button[aria-label="Close"]
+
+xpath:
+1. Вибір Audi з випадаючого списку брендів сторінки інструкцій //li[contains(@class,'brand-select-dropdown_item') and normalize-space()='Audi']
+2. Вибір R8 з випадаючого списку моделей сторінки інструцкій <li _ngcontent-bah-c76="" ngbdropdownitem="" class="dropdown-item btn btn-link model-select-dropdown_item">R8</li>
+3. Кнопка Search //button[contains(@class,'instructions-search-controls_search')]
+4. Посилання Download //a[contains(@class,'instruction-link_download') and normalize-space()='Download']
+5. Пункт меню Fuel expenses //a[contains(@class,'user-nav_link') and @href='/panel/expenses']
+6. Кнопка Add Expense //button[normalize-space()='Add an expense']
+7. День в календарі //div[@ngbdatepickerdayview and normalize-space()='15']
+8. Поле вводу Mileage //input[@id='addExpenseMileage']
+9. Повідомлення Liters required //p[normalize-space()='Liters required']
+10. Кнопка Cancel //button[normalize-space()='Cancel']
